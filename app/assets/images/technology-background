@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js"> <!--<![endif]-->
+  <head>
+    
+    <link rel="dns-prefetch" href="//static.videezy.com">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8807cf62c6","applicationID":"8328975","transactionName":"cl0NR0UNXlpTQ0wXUUJdFkFUB0EZWFQUOkdUUxFQXw==","queueTime":0,"applicationTime":247,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <title>Technology Background Free Video Clips - (2191 Free Downloads)</title>
+<meta content="2191 Best Technology Background Free Video Clip Downloads from the Videezy community. Technology Background Free Video Clips licensed under creative commons, open source, and more!" name="description" />
+<meta content="Videezy" property="og:site_name" />
+<meta content="Free HD Video Clips & Stock Video Footage at Videezy!" property="og:title" />
+<meta content="https://www.videezy.com/free-video/technology-background" property="og:url" />
+<meta content="en_US" property="og:locale" />
+<meta content="es_ES" property="og:locale:alternate" />
+<meta content="pt_BR" property="og:locale:alternate" />
+<meta content="de_DE" property="og:locale:alternate" />
+<meta content="fr_FR" property="og:locale:alternate" />
+<meta content="nl_NL" property="og:locale:alternate" />
+<meta content="sv_SE" property="og:locale:alternate" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"></link>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="https://static.videezy.com/assets/modernizr.custom.83825-93372fb200ead74f1d44254d993c5440.js" type="text/javascript"></script>
+    <link href="https://static.videezy.com/assets/application-6035bbb1ac277697dcfdd4b9b970b7ea.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://static.videezy.com/assets/print-ac38768f09270df2214d2c500c647adc.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="https://feeds.feedburner.com/eezyinc/videezy-images" rel="alternate" title="RSS" type="application/rss+xml" />
+
+          <link rel="canonical" href="https://www.videezy.com/free-video/technology-background">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="oNYWXFaI9jTI0QlhrtqZ7+1AWx3i0Ta8et1gcIxHv/I=" name="csrf-token" />
+    <!-- Begin TextBlock "HTML - Head" -->
+<meta name="google-site-verification" content="mOMyvrYVQGuqwse7CZihEeIr5hGdSrWfID9O45QHsTQ" />
+<meta name="google-site-verification" content="HVgu-k8b6XG1SEaxL29j0XcOV33Uz5qneXtpGDQgCS4" />
+<!--<script type="text/javascript" src="//api.xeezy.com/api.min.js"></script>-->
+<meta name="referrer" content="unsafe-url" />
+
+<meta name="msvalidate.01" content="9E7A3F56C01FB9B69FCDD1FBD287CAE4" />
+</script>
+
+<meta name="p:domain_verify" content="9949c020348e97fc55305d8f9567e26b"/>
+<!-- TradeDoubler site verification 2802549 -->
+<meta name="google-site-verification" content="Kyua5JM6jqFQ6WxVq5b-tT2OxzLMy9QYKI9G2MAGbBo" />
+<script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = 'BXDP0';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+    o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+    g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+    g.consent=function(a){g("consent",!arguments.length||a)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(){};
+})(window,document,window['_fs_namespace'],'script','user');
+</script>
+<!-- End TextBlock "HTML - Head" -->
+      <script type="text/javascript">
+    window.searchScope = 'External';
+  </script>
+    <link rel="next" href="https://www.videezy.com/free-video/technology-background?page=2" />
+
+    
+    <link rel="alternate" hreflang="en" href="https://www.videezy.com/free-video/technology-background" />
+
+    <link rel="alternate" hreflang="es" href="https://es.videezy.com/video-gratis/technology-background" />
+
+    <link rel="alternate" hreflang="pt" href="https://pt.videezy.com/video-livre/technology-background" />
+
+    <link rel="alternate" hreflang="de" href="https://de.videezy.com/gratis-video/technology-background" />
+
+    <link rel="alternate" hreflang="fr" href="https://fr.videezy.com/video-libre/technology-background" />
+
+    <link rel="alternate" hreflang="nl" href="https://nl.videezy.com/gratis-video/technology-background" />
+
+    <link rel="alternate" hreflang="sv" href="https://sv.videezy.com/gratis-video/technology-background" />
+    <link rel="alternate" hreflang="x-default" href="https://www.videezy.com/free-video/technology-background">
+
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "videezy",
+        "url": "https://www.videezy.com"
+      }
+   </script>
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://www.videezy.com",
+      "logo": "https://static.videezy.com/assets/structured_data/videezy-logo-52625561c3550f3947fbf5fbfd3614a4.svg",
+      "sameAs": [
+        "https://www.facebook.com/videezy",
+        "https://twitter.com/videezy",
+        "https://pinterest.com/videezy/",
+        "https://www.youtube.com/videezy",
+        "https://instagram.com/eezy/",
+        "https://www.snapchat.com/add/eezy",
+        "https://google.com/+vecteezy"
+      ]
+     }
+    </script>
+
+    <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+    mixpanel.init("3a3326b877c1b92b83584837f35525ce");
+
+</script><!-- end Mixpanel -->
+
+  </head>
+  <body class=" full-width-search fullwidth redesign-layout resources-new_search">
+      
+
+    <div id="fb-root"></div>
+
+
+    <header class="site-header  ">
+<div class="max-inner is-logged-out">
+
+    <figure class="site-logo">
+      <a href="https://www.videezy.com/" alt="Videezy"><img alt="Free HD Stock Video at Videezy" src="https://static.videezy.com/assets/videezy/videezy-logo-96c769aa52a91cac6fa59c746e388dbb.svg" title="Videezy" /></a>
+    </figure>
+
+    <nav class="logged-out-nav">
+        <ul class="header-menu">
+          <li>
+            <a href="/signup" data-remote="true" onclick="track_header_join_eezy_click();">Join Eezy!</a>
+          </li>
+          <li>
+            <a href="/login" class="login-link" data-remote="true" onclick="track_header_login_click();">Login</a>
+          </li>
+        </ul>
+
+
+    </nav><!-- .logged-in-nav/.logged-out-nav -->
+      <form accept-charset="UTF-8" action="/free-video" class="search-form" id="search-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="oNYWXFaI9jTI0QlhrtqZ7+1AWx3i0Ta8et1gcIxHv/I=" /></div>
+  <input id="from" name="from" type="hidden" value="mainsite" />
+    <input id="in_se" name="in_se" type="hidden" value="true" />
+    <div class="inputs-wrapper">
+        <input class="search-term" id="search-term" name="search" placeholder="Enter Keyword(s)" type="text" value="technology background" />
+
+      <input class="search-submit" name="commit" type="submit" value="Search" />
+    </div>
+
+</form>
+  </div><!-- .max-inner -->
+</header>
+
+
+    <div id="body">
+      <div class="content">
+
+
+
+        
+
+          
+
+
+
+
+<div class="content-inner">
+  <aside id="filter-sidebar">
+    Search Results:
+    <ul class="filter-options">
+          <li class="active"><span rel="nofollow">Relevant</span></li>
+          <li class=""><a href="/free-video/technology-background?sort=date" rel="nofollow">Newest</a></li>
+    </ul>
+
+
+
+        <ul class="filter-options">
+      <li>All content 2191</li>
+          <li><a href="/all-after-effects-templates/technology-background">After effects</a> 199</li>
+  </ul>
+
+
+    <br/>
+        Related Searches:
+
+  <ul class="filter-options popular">
+      <li>
+        <a href="/free-video/background" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;background&#x27;, &#x27;technology background&#x27;);" title="background">background</a>
+      </li>
+      <li>
+        <a href="/free-video/backdrop" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;backdrop&#x27;, &#x27;technology background&#x27;);" title="backdrop">backdrop</a>
+      </li>
+      <li>
+        <a href="/free-video/motion" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;motion&#x27;, &#x27;technology background&#x27;);" title="motion">motion</a>
+      </li>
+      <li>
+        <a href="/free-video/animated" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;animated&#x27;, &#x27;technology background&#x27;);" title="animated">animated</a>
+      </li>
+      <li>
+        <a href="/free-video/4k" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;4k&#x27;, &#x27;technology background&#x27;);" title="4k">4k</a>
+      </li>
+      <li>
+        <a href="/free-video/particles" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;particles&#x27;, &#x27;technology background&#x27;);" title="particles">particles</a>
+      </li>
+      <li>
+        <a href="/free-video/organic" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;organic&#x27;, &#x27;technology background&#x27;);" title="organic">organic</a>
+      </li>
+      <li>
+        <a href="/free-video/nature" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;nature&#x27;, &#x27;technology background&#x27;);" title="nature">nature</a>
+      </li>
+      <li>
+        <a href="/free-video/living" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;living&#x27;, &#x27;technology background&#x27;);" title="living">living</a>
+      </li>
+      <li>
+        <a href="/free-video/winter" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;winter&#x27;, &#x27;technology background&#x27;);" title="winter">winter</a>
+      </li>
+      <li>
+        <a href="/free-video/sun" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;sun&#x27;, &#x27;technology background&#x27;);" title="sun">sun</a>
+      </li>
+      <li>
+        <a href="/free-video/christmas" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;christmas&#x27;, &#x27;technology background&#x27;);" title="christmas">christmas</a>
+      </li>
+      <li>
+        <a href="/free-video/holiday" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;holiday&#x27;, &#x27;technology background&#x27;);" title="holiday">holiday</a>
+      </li>
+      <li>
+        <a href="/free-video/holidays" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;holidays&#x27;, &#x27;technology background&#x27;);" title="holidays">holidays</a>
+      </li>
+      <li>
+        <a href="/free-video/happy" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;happy&#x27;, &#x27;technology background&#x27;);" title="happy">happy</a>
+      </li>
+  </ul>
+
+      <div class="sticky-ad">
+      <div class='adunit searchpage-leftside' data-adunit='Videezy_Search_Leftside' data-size-mapping='searchpage-leftside'></div>
+  </div>
+
+  </aside>
+
+  <div id="main" class="wide">
+    <div class="gap-m results-header">
+            <h1 class="search-header">Free Technology background Stock Videos</h1>
+          <p>
+              Displaying 2,191 videos matching <strong>technology background</strong>
+        </p>
+        
+    </div>
+
+          <input type="hidden" name="eezysearch" value="technology background"/>
+
+  <input type="hidden" name="eezypage" value="0"/>
+
+
+  <div id="shutterstockapi" class="eezyapi" data-affiliate="shutterstock" data-limit="50" data-apiparams="s=vecteezy"></div>
+
+
+        <center><div class='bsap adunit mobile-only' data-adunit='Videezy_Mobile_Search' data-size-mapping='mobile-search'></div></center>
+
+      <ul class="grid items is--justified videezy-grid" rel="search-results">
+
+        <li data-height="113" data-width="200">
+
+      <a href="/after-effects-templates/7313-plexus-technology-lines" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MSZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTczMTMmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="1" data-premium="false" data-resource-id="7313" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Plexus Technology Lines"><img alt="Plexus Technology Lines" src="https://static.videezy.com/system/resources/thumbnails/000/007/313/small/plexusbkgthumb.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/007/313/small_2x/plexusbkgthumb.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/007/313/small/plexusbkgthumb.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/8211-technology-on-tiles-in-4k" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MiZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTgyMTEmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="2" data-premium="false" data-resource-id="8211" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Technology on Tiles in 4K"><img alt="Technology on Tiles in 4K" src="https://static.videezy.com/system/resources/thumbnails/000/008/211/small/technology-on-tiles-in-4k.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/211/small_2x/technology-on-tiles-in-4k.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/008/211/small/technology-on-tiles-in-4k.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/technology/4734-google-search-of-the-term-technology-hd" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MyZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTQ3MzQmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="3" data-premium="false" data-resource-id="4734" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Google Search of the Term Technology HD"><img alt="Google Search of the Term Technology HD" src="https://static.videezy.com/system/resources/thumbnails/000/004/734/small/google-tech-1080p.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/734/small_2x/google-tech-1080p.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/734/small/google-tech-1080p.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/7218-circular-hud-interface-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NCZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTcyMTgmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="4" data-premium="false" data-resource-id="7218" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Circular HUD Interface 4K Motion Background"><img alt="Circular HUD Interface 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/007/218/small/circular-hud-interface-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/007/218/small_2x/circular-hud-interface-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/007/218/small/circular-hud-interface-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/technology/5890-las-tecnolog-as-en-el-entorno-acad-mico" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NSZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTU4OTAmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="5" data-premium="false" data-resource-id="5890" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Las tecnologías en el entorno académico"><img alt="Las tecnologías en el entorno académico" src="https://static.videezy.com/system/resources/thumbnails/000/005/890/small/5890.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/890/small_2x/5890.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/890/small/5890.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5087-organic-lines-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NiZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTUwODcmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="6" data-premium="false" data-resource-id="5087" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Organic Lines 4K Motion Background Loop"><img alt="Organic Lines 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/087/small/organic-lines-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/087/small_2x/organic-lines-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/087/small/organic-lines-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/technology/14599-camera-visor-black-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NyZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTE0NTk5JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="7" data-premium="false" data-resource-id="14599" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Camera Visor Black Background"><img alt="Camera Visor Black Background" src="https://static.videezy.com/system/resources/thumbnails/000/014/599/small/camera-visor-black-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/014/599/small_2x/camera-visor-black-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/014/599/small/camera-visor-black-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/technology/14600-camera-visor-green-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249OCZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTE0NjAwJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="8" data-premium="false" data-resource-id="14600" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Camera Visor Green Background"><img alt="Camera Visor Green Background" src="https://static.videezy.com/system/resources/thumbnails/000/014/600/small/camera-visor-green-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/014/600/small_2x/camera-visor-green-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/014/600/small/camera-visor-green-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/technology/14601-camera-visor-white-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249OSZwcmVtaXVtPWZhbHNlJnJlc291cmNlX2lkPTE0NjAxJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="9" data-premium="false" data-resource-id="14601" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Camera Visor White Background"><img alt="Camera Visor White Background" src="https://static.videezy.com/system/resources/thumbnails/000/014/601/small/camera-visor-white-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/014/601/small_2x/camera-visor-white-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/014/601/small/camera-visor-white-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5102-starscape-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTAmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MTAyJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="10" data-premium="false" data-resource-id="5102" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Starscape 4K Motion Background Loop"><img alt="Starscape 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/102/small/starscape-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/102/small_2x/starscape-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/102/small/starscape-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/323-3d-flourish-background-loop-hd" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTEmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD0zMjMmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="11" data-premium="false" data-resource-id="323" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="3D Flourish background loop (HD)"><img alt="3D Flourish background loop (HD)" src="https://static.videezy.com/system/resources/thumbnails/000/000/323/small/Grey_203d_20Flourish_20background_20loop_20HD_20_SaveYouTube.com_.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/000/323/small_2x/Grey_203d_20Flourish_20background_20loop_20HD_20_SaveYouTube.com_.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/000/323/small/Grey_203d_20Flourish_20background_20loop_20HD_20_SaveYouTube.com_.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5069-far-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTImcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDY5JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="12" data-premium="false" data-resource-id="5069" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Far 4K Motion Background Loop"><img alt="Far 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/069/small/far-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/069/small_2x/far-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/069/small/far-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5090-reflect-bands-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTMmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDkwJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="13" data-premium="false" data-resource-id="5090" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Reflect Bands 4K Motion Background Loop"><img alt="Reflect Bands 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/090/small/reflect-bands-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/090/small_2x/reflect-bands-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/090/small/reflect-bands-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5105-stroked-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTQmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MTA1JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="14" data-premium="false" data-resource-id="5105" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Stroked 4K Motion Background Loop"><img alt="Stroked 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/105/small/stroked-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/105/small_2x/stroked-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/105/small/stroked-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/436-plaidical-hd-animated-looping-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTUmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00MzYmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="15" data-premium="false" data-resource-id="436" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Plaidical HD Animated Looping Background"><img alt="Plaidical HD Animated Looping Background" src="https://static.videezy.com/system/resources/thumbnails/000/000/436/small/Plaidical_1.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/000/436/small_2x/Plaidical_1.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/000/436/small/Plaidical_1.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200" class="is-premium-resource">
+
+      <a href="/abstract/7311-futuristic-space-ship-machine-room-4k-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTYmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD03MzExJnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="16" data-premium="false" data-resource-id="7311" data-resource-is-premium="true" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Futuristic space ship machine room 4K background"><img alt="Futuristic space ship machine room 4K background" src="https://static.videezy.com/system/resources/thumbnails/000/007/311/small/futuristic-space-ship-machine-room-4k-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/007/311/small_2x/futuristic-space-ship-machine-room-4k-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/007/311/small/futuristic-space-ship-machine-room-4k-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/6938-silky-blue-motion-background-720p" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTcmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD02OTM4JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="17" data-premium="false" data-resource-id="6938" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Silky Blue Motion Background 720P"><img alt="Silky Blue Motion Background 720P" src="https://static.videezy.com/system/resources/thumbnails/000/006/938/small/silky-blue-motion-background-720p.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/006/938/small_2x/silky-blue-motion-background-720p.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/006/938/small/silky-blue-motion-background-720p.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/326-free-hd-bokeh-background-video-clip" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTgmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD0zMjYmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="18" data-premium="false" data-resource-id="326" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Free HD Bokeh Background Video Clip"><img alt="Free HD Bokeh Background Video Clip" src="https://static.videezy.com/system/resources/thumbnails/000/000/326/small/Bokeh_Background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/000/326/small_2x/Bokeh_Background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/000/326/small/Bokeh_Background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5095-scifi-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MTkmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDk1JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="19" data-premium="false" data-resource-id="5095" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Scifi 4K Motion Background Loop"><img alt="Scifi 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/095/small/scifi-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/095/small_2x/scifi-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/095/small/scifi-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4942-lookout-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjAmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTQyJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="20" data-premium="false" data-resource-id="4942" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Lookout 4K Living Background"><img alt="Lookout 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/942/small/lookout-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/942/small_2x/lookout-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/942/small/lookout-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5037-abstract-blur-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjEmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDM3JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="21" data-premium="false" data-resource-id="5037" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Abstract Blur 4K Motion Background Loop"><img alt="Abstract Blur 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/037/small/Abstract_Blur_4K_Motion_Background_Loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/037/small_2x/Abstract_Blur_4K_Motion_Background_Loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/037/small/Abstract_Blur_4K_Motion_Background_Loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/325-free-urban-grunge-hd-background-video" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjImcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD0zMjUmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="22" data-premium="false" data-resource-id="325" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Free Urban Grunge HD Background Video"><img alt="Free Urban Grunge HD Background Video" src="https://static.videezy.com/system/resources/thumbnails/000/000/325/small/Free_Urban_Grunge_Background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/000/325/small_2x/Free_Urban_Grunge_Background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/000/325/small/Free_Urban_Grunge_Background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5089-particle-wave-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjMmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDg5JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="23" data-premium="false" data-resource-id="5089" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Particle Wave 4K Motion Background Loop"><img alt="Particle Wave 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/089/small/particle-wave-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/089/small_2x/particle-wave-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/089/small/particle-wave-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5082-macro-plex-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjQmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDgyJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="24" data-premium="false" data-resource-id="5082" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Macro Plex 4K Motion Background Loop"><img alt="Macro Plex 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/082/small/macro-plex-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/082/small_2x/macro-plex-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/082/small/macro-plex-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5061-deep-fog-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjUmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDYxJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="25" data-premium="false" data-resource-id="5061" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Deep Fog 4K Motion Background Loop"><img alt="Deep Fog 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/061/small/deep-fog-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/061/small_2x/deep-fog-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/061/small/deep-fog-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5064-distant-lights-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjYmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDY0JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="26" data-premium="false" data-resource-id="5064" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Distant Lights 4K Motion Background Loop"><img alt="Distant Lights 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/064/small/distant-lights-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/064/small_2x/distant-lights-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/064/small/distant-lights-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5081-light-discs-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjcmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDgxJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="27" data-premium="false" data-resource-id="5081" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Light Discs 4K Motion Background Loop"><img alt="Light Discs 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/081/small/light-discs-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/081/small_2x/light-discs-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/081/small/light-discs-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/500-spooky-trees-loopable-animated-background-stock-video" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjgmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDAmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="28" data-premium="false" data-resource-id="500" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Spooky Trees (Loopable Animated Background) Stock Video"><img alt="Spooky Trees (Loopable Animated Background) Stock Video" src="https://static.videezy.com/system/resources/thumbnails/000/000/500/small/SpookyTrees_1.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/000/500/small_2x/SpookyTrees_1.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/000/500/small/SpookyTrees_1.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/nature/4086-leaf-on-foreground-with-unfocused-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MjkmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00MDg2JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="29" data-premium="false" data-resource-id="4086" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Leaf on foreground with unfocused background"><img alt="Leaf on foreground with unfocused background" src="https://static.videezy.com/system/resources/thumbnails/000/004/086/small/Leaf_on_foreground_with_unfocused_background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/086/small_2x/Leaf_on_foreground_with_unfocused_background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/086/small/Leaf_on_foreground_with_unfocused_background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/nature/4137-leaf-on-foreground-with-unfocused-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzAmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00MTM3JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="30" data-premium="false" data-resource-id="4137" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Leaf on foreground with unfocused background"><img alt="Leaf on foreground with unfocused background" src="https://static.videezy.com/system/resources/thumbnails/000/004/137/small/Leaf_on_the_forest.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/137/small_2x/Leaf_on_the_forest.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/137/small/Leaf_on_the_forest.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200" class="is-premium-resource">
+
+      <a href="/backgrounds/9070-messy-specks-of-light-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzEmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD05MDcwJnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="31" data-premium="false" data-resource-id="9070" data-resource-is-premium="true" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Messy Specks of Light 4K Motion Background"><img alt="Messy Specks of Light 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/009/070/small/messy-specks-of-light-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/009/070/small_2x/messy-specks-of-light-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/009/070/small/messy-specks-of-light-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200" class="is-premium-resource">
+
+      <a href="/backgrounds/8948-dizzy-dance-of-light-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzImcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD04OTQ4JnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="32" data-premium="false" data-resource-id="8948" data-resource-is-premium="true" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Dizzy Dance of Light 4K Motion Background"><img alt="Dizzy Dance of Light 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/008/948/small/dizzy-dance-of-light-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/948/small_2x/dizzy-dance-of-light-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/008/948/small/dizzy-dance-of-light-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5106-tri-particles-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzMmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MTA2JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="33" data-premium="false" data-resource-id="5106" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Tri Particles 4K Motion Background Loop"><img alt="Tri Particles 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/106/small/tri-particles-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/106/small_2x/tri-particles-4k-motion-background-loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/106/small/tri-particles-4k-motion-background-loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/14056-stop-motion-template-numbers" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzQmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD0xNDA1NiZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NTU0NTc1Y2MtMTE2MC00NDVhLWJiYmQtODcwNDg4ZjM1NTI1JnNlYXJjaF9pZD00OTMyOGM5ZS1kZDljLTQ5M2YtYmY3Ny05ODBmZWMwY2IwMWUmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD01MDcwNjQyNSZ0ZXJtPXRlY2hub2xvZ3ktYmFja2dyb3VuZA==" data-internal="false" data-page="1" data-position="34" data-premium="false" data-resource-id="14056" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="stop motion template numbers"><img alt="stop motion template numbers" src="https://static.videezy.com/system/resources/thumbnails/000/014/056/small/stop-motion-template-numbers.JPG" srcset="https://static.videezy.com/system/resources/thumbnails/000/014/056/small_2x/stop-motion-template-numbers.JPG 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/014/056/small/stop-motion-template-numbers.JPG 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5039-arrival-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzUmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDM5JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="35" data-premium="false" data-resource-id="5039" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Arrival 4K Motion Background Loop"><img alt="Arrival 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/039/small/Arrival_4K_Motion_Background_Loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/039/small_2x/Arrival_4K_Motion_Background_Loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/039/small/Arrival_4K_Motion_Background_Loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4957-the-woods-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzYmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTU3JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="36" data-premium="false" data-resource-id="4957" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="The Woods 4K Living Background"><img alt="The Woods 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/957/small/the-woods-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/957/small_2x/the-woods-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/957/small/the-woods-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200" class="is-premium-resource">
+
+      <a href="/backgrounds/8958-hypnotize-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzcmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD04OTU4JnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="37" data-premium="false" data-resource-id="8958" data-resource-is-premium="true" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Hypnotize 4K Motion Background"><img alt="Hypnotize 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/008/958/small/hypnotize-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/958/small_2x/hypnotize-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/008/958/small/hypnotize-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5017-rainbow-flare-nebula-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzgmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDE3JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="38" data-premium="false" data-resource-id="5017" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Rainbow Flare Nebula 4K Motion Background"><img alt="Rainbow Flare Nebula 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/005/017/small/rainbow-flare-nebula-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/017/small_2x/rainbow-flare-nebula-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/017/small/rainbow-flare-nebula-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5040-arrow-slide-4k-motion-background-loop" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249MzkmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDQwJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="39" data-premium="false" data-resource-id="5040" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Arrow Slide 4K Motion Background Loop"><img alt="Arrow Slide 4K Motion Background Loop" src="https://static.videezy.com/system/resources/thumbnails/000/005/040/small/Arrow_Slide_4K_Motion_Background_Loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/040/small_2x/Arrow_Slide_4K_Motion_Background_Loop.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/040/small/Arrow_Slide_4K_Motion_Background_Loop.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5013-golden-nebula-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDAmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDEzJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="40" data-premium="false" data-resource-id="5013" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Golden Nebula 4K Motion Background"><img alt="Golden Nebula 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/005/013/small/golden-nebula-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/013/small_2x/golden-nebula-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/013/small/golden-nebula-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/5012-flared-nebula-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDEmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD01MDEyJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="41" data-premium="false" data-resource-id="5012" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Flared Nebula 4K Motion Background"><img alt="Flared Nebula 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/005/012/small/flared-nebula-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/012/small_2x/flared-nebula-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/005/012/small/flared-nebula-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200" class="is-premium-resource">
+
+      <a href="/backgrounds/4915-christmas-eve-motion-background-4k" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDImcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTE1JnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="42" data-premium="false" data-resource-id="4915" data-resource-is-premium="true" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Christmas Eve Motion Background 4K"><img alt="Christmas Eve Motion Background 4K" src="https://static.videezy.com/system/resources/thumbnails/000/004/915/small/Chsristmas_Eve_Motion_Background_4K.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/915/small_2x/Chsristmas_Eve_Motion_Background_4K.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/915/small/Chsristmas_Eve_Motion_Background_4K.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4928-snowy-christmas-motion-background-4k" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDMmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTI4JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="43" data-premium="false" data-resource-id="4928" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Snowy Christmas Motion Background 4K"><img alt="Snowy Christmas Motion Background 4K" src="https://static.videezy.com/system/resources/thumbnails/000/004/928/small/snowy-christmas-motion-background-4k.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/928/small_2x/snowy-christmas-motion-background-4k.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/928/small/snowy-christmas-motion-background-4k.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4938-giant-tree-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDQmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTM4JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="44" data-premium="false" data-resource-id="4938" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Giant Tree 4K Living Background"><img alt="Giant Tree 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/938/small/giant-tree-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/938/small_2x/giant-tree-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/938/small/giant-tree-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4943-macro-branch-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDUmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTQzJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="45" data-premium="false" data-resource-id="4943" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Macro Branch 4K Living Background"><img alt="Macro Branch 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/943/small/macro-branch-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/943/small_2x/macro-branch-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/943/small/macro-branch-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4944-magical-tree-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDYmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTQ0JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="46" data-premium="false" data-resource-id="4944" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Magical Tree 4K Living Background"><img alt="Magical Tree 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/944/small/magical-tree-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/944/small_2x/magical-tree-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/944/small/magical-tree-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4945-quiet-forest-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDcmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTQ1JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="47" data-premium="false" data-resource-id="4945" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Quiet Forest 4K Living Background"><img alt="Quiet Forest 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/945/small/quiet-forest-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/945/small_2x/quiet-forest-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/945/small/quiet-forest-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4948-silent-room-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDgmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTQ4JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="48" data-premium="false" data-resource-id="4948" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Silent Room 4K Living Background"><img alt="Silent Room 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/948/small/silent-room-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/948/small_2x/silent-room-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/948/small/silent-room-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200">
+
+      <a href="/backgrounds/4959-tree-pond-4k-living-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NDkmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD00OTU5JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01NTQ1NzVjYy0xMTYwLTQ0NWEtYmJiZC04NzA0ODhmMzU1MjUmc2VhcmNoX2lkPTQ5MzI4YzllLWRkOWMtNDkzZi1iZjc3LTk4MGZlYzBjYjAxZSZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTUwNzA2NDI1JnRlcm09dGVjaG5vbG9neS1iYWNrZ3JvdW5k" data-internal="false" data-page="1" data-position="49" data-premium="false" data-resource-id="4959" data-resource-is-premium="false" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Tree Pond 4K Living Background"><img alt="Tree Pond 4K Living Background" src="https://static.videezy.com/system/resources/thumbnails/000/004/959/small/tree-pond-4k-living-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/959/small_2x/tree-pond-4k-living-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/004/959/small/tree-pond-4k-living-background.jpg 1x" /></a>
+
+
+      </li>
+        <li data-height="113" data-width="200" class="is-premium-resource">
+
+      <a href="/backgrounds/8194-slow-movement-4k-motion-background" class="internal-resource" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="ZG9tYWluPXd3dy52aWRlZXp5LmNvbSZpbnRlcm5hbD1mYWxzZSZwYWdlPTEmcG9zaXRpb249NTAmcHJlbWl1bT1mYWxzZSZyZXNvdXJjZV9pZD04MTk0JnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTU1NDU3NWNjLTExNjAtNDQ1YS1iYmJkLTg3MDQ4OGYzNTUyNSZzZWFyY2hfaWQ9NDkzMjhjOWUtZGQ5Yy00OTNmLWJmNzctOTgwZmVjMGNiMDFlJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9NTA3MDY0MjUmdGVybT10ZWNobm9sb2d5LWJhY2tncm91bmQ=" data-internal="false" data-page="1" data-position="50" data-premium="false" data-resource-id="8194" data-resource-is-premium="true" data-rollout-id="554575cc-1160-445a-bbbd-870488f35525" data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e" data-search-page-view-event-id="50706425" data-term="technology-background" title="Slow Movement 4K Motion Background"><img alt="Slow Movement 4K Motion Background" src="https://static.videezy.com/system/resources/thumbnails/000/008/194/small/slow-movement-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/194/small_2x/slow-movement-4k-motion-background.jpg 2x,
+                  https://static.videezy.com/system/resources/thumbnails/000/008/194/small/slow-movement-4k-motion-background.jpg 1x" /></a>
+
+
+      </li>
+  </ul>
+
+
+
+
+
+        <div class="c-tags search-tags four-rows">
+            <a href="/free-video/animation" class="tag-link" title="animation">animation</a>
+            <a href="/free-video/1080" class="tag-link" title="1080">1080</a>
+            <a href="/free-video/theme" class="tag-link" title="theme">theme</a>
+            <a href="/free-video/themed" class="tag-link" title="themed">themed</a>
+            <a href="/free-video/married" class="tag-link" title="married">married</a>
+            <a href="/free-video/marriage" class="tag-link" title="marriage">marriage</a>
+            <a href="/free-video/wedding" class="tag-link" title="wedding">wedding</a>
+            <a href="/free-video/snow" class="tag-link" title="snow">snow</a>
+            <a href="/free-video/rays" class="tag-link" title="rays">rays</a>
+            <a href="/free-video/wife" class="tag-link" title="wife">wife</a>
+            <a href="/free-video/uhd" class="tag-link" title="uhd">uhd</a>
+            <a href="/free-video/engaged" class="tag-link" title="engaged">engaged</a>
+            <a href="/free-video/husband" class="tag-link" title="husband">husband</a>
+            <a href="/free-video/love" class="tag-link" title="love">love</a>
+        </div>
+      <nav class="pager alt old_pager">
+    <div class="pagination"><span class="previous_page disabled">&#8592; Previous</span> <em class="current">1</em> <a rel="next" href="/free-video/technology-background?page=2">2</a> <a href="/free-video/technology-background?page=3">3</a> <span class="gap"></span> <a href="/free-video/technology-background?page=43">43</a> <a href="/free-video/technology-background?page=44">44</a> <a class="next_page" rel="next" href="/free-video/technology-background?page=2">Next &#8594;</a></div>
+  </nav>
+
+
+
+    
+  </div>
+</div><!-- end: content-inner -->
+
+
+      </div>
+    </div>
+
+
+
+
+
+    <footer class="site-footer new">
+  <div class="max-inner">
+
+    <div class="footer-nav row">
+      <div class="col">
+        <h4>Our network</h4>
+        <ul>
+          <li><a href="https://www.brusheezy.com">Brusheezy</a></li>
+          <li><a href="https://www.vecteezy.com">Vecteezy</a></li>
+          <li><a href="https://www.videezy.com">Videezy</a></li>
+          <li><a href="https://www.themezy.com">Themezy</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>About Us</h4>
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="http://www.eezy.com/team">Our Team</a></li>
+          <li><a href="/blog">Our Blog</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Site links</h4>
+        <ul>
+          <li><a href="/deals">Deals</a></li>
+          <li><a href="/advertising">Advertise</a></li>
+          <li><a href="https://support.videezy.com" class="" target="_blank">Support</a></li>
+              <li><a href="https://support.videezy.com/hc/en-us/articles/115002183131-Digital-Millennium-Copyright-Act-DMCA-" target="_blank">DMCA</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Languages</h4>
+        <ul>
+          <li>
+            <a href="https://www.videezy.com/free-video/technology-background" class="locale-footer-link en">English</a>
+          </li>
+          <li>
+            <a href="https://es.videezy.com/video-gratis/technology-background" class="locale-footer-link es">Español</a>
+          </li>
+          <li>
+            <a href="https://pt.videezy.com/video-livre/technology-background" class="locale-footer-link pt">Português</a>
+          </li>
+        <li class="more-languages">
+          <a href="#" class="footer-locale-more-link">More...</a>
+          <ul>
+              <li>
+                
+                  <span>
+                    English
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                  </span>
+              </li>
+              <li>
+                <a href="https://es.videezy.com/video-gratis/technology-background" class="nested-locale-footer-link es">Español</a>              </li>
+              <li>
+                <a href="https://pt.videezy.com/video-livre/technology-background" class="nested-locale-footer-link pt">Português</a>              </li>
+              <li>
+                <a href="https://de.videezy.com/gratis-video/technology-background" class="nested-locale-footer-link de">Deutsch</a>              </li>
+              <li>
+                <a href="https://fr.videezy.com/video-libre/technology-background" class="nested-locale-footer-link fr">Français</a>              </li>
+              <li>
+                <a href="https://nl.videezy.com/gratis-video/technology-background" class="nested-locale-footer-link nl">Nederlands</a>              </li>
+              <li>
+                <a href="https://sv.videezy.com/gratis-video/technology-background" class="nested-locale-footer-link sv">Svenska</a>              </li>
+          </ul>
+          <span class="more-languages__overlay"></span>
+        </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom row">
+      <div class="footer-bottom-inner">
+        <a href="http://eezy.com" class="eezy-logo" title="Eezy Inc."><img alt="Eezy-logo" src="https://static.videezy.com/assets/eezy-logo-3ea26c89a4ddb6c0d835c64e0fc6679c.svg" /></a>
+
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com/videezy" target="_blank" title="facebook"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-facebook-square"></i></a></li>
+          <li><a href="https://twitter.com/videezy" target="_blank" title="twitter"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-twitter"></i></a></li>
+          <li><a href="https://google.com/+vecteezy" target="_blank" title="googleplus"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-google-plus"></i></a></li>
+          <li><a href="https://pinterest.com/videezy/" target="_blank" title="pinterest"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-pinterest"></i></a></li>
+          <li><a href="https://instagram.com/eezy/" target="_blank" title="instagram"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.snapchat.com/add/eezy" target="_blank" title="snapchat"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-snapchat-ghost"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/eezy.com" target="_blank" title="linkedin"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-linkedin-square"></i></a></li>
+          
+        </ul>
+
+        <div class="footer-aux">
+          <p class="footer-copyright">&copy; 2018 Eezy Inc. All rights reserved</p>
+          <span class="bullet-sep"> &bullet; </span>
+          <ul>
+            <li><a href="/terms">Terms of Use</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+
+      
+      <script src="https://static.videezy.com/assets/essential_top_scripts-0ec84cdce17a7373549217a32b99d302.js" type="text/javascript"></script>
+      <script defer="defer" src="https://static.videezy.com/assets/shutterstock-api-eabc1c00ec92a957f179e1021d8a4b54.js" type="text/javascript"></script>
+      <script defer="defer" src="https://static.videezy.com/assets/application-dae0b572abd62f5b7b0e8559f9112fe2.js" type="text/javascript"></script>
+        <script defer="defer" src="https://static.videezy.com/assets/shutterstock-presentation-c8115b79011212c1150c2b646c132401.js" type="text/javascript"></script>
+      <script defer="defer" src="https://static.videezy.com/assets/redesign-functionality-6bf4ca9b2811703f05d6180f8ed6bfdd.js" type="text/javascript"></script>
+      <script defer="defer" src="https://static.videezy.com/assets/eezy-premium-popup-2cdf129fd1cf308ff724036d92d4eced.js" type="text/javascript"></script>
+
+      <script defer="defer" src="https://static.videezy.com/assets/underpop-1e4b50cf734997e6af3db5b12a751a6a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var is_search_page = true;
+  </script>
+  <script src="https://static.videezy.com/assets/search/click_events-76621a37b7712510d5f2cd65ec5cf11c.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function sstkFunction() {
+
+        var search = $('[name=eezysearch]').val(),
+            page = $('[name=eezypage]').val(),
+            ref = null;//'$('[name=eezyref]').val(),
+            pos = $('[name=eezypos]').val();
+
+
+        var funct = "search";
+        //This is in case we want to override a sub id elsewhere
+        if (window.sub_id_1) {
+          var sub_id_1 = window.sub_id_1;
+        } else {
+          var sub_id_1 = 'search';
+        }
+
+        var sh_atid = "sharedid=www.videezy.com&subId1="+ sub_id_1 + "&subId2="+encodeURI(search)+"&subId3=";
+
+        var new_sh_atid = $('#sh_atid').data("atid");
+
+        //This is for the delayed download page
+        if (new_sh_atid !== undefined) {
+          $('#shutterstockapi').data('limit', "28");
+          sh_atid = new_sh_atid;
+        }
+
+        $('.eezyapi[data-affiliate=shutterstock]').each(function() {
+          $(this).data('urlparams', sh_atid);
+          $(this).data('ird', '38919');
+          $(this).data('loc', 'en');
+            $(this).data('apiparams', "type=video&s=videezy");
+        });
+
+        var noResultTimer = setTimeout(function() {track("sponsored_search_without_results", search)}, 15 * 1000);
+
+        $(document).on("click", ".eezyapi[data-affiliate='shutterstock'] li a", function(e) {
+          track("click", search, "shutterstock");
+        });
+
+        $('.eezyapi[data-affiliate=shutterstock]').bind('resultsLoaded', function(event, results) {
+          window.clearTimeout(noResultTimer);
+          $('#shutterstock-search-form input[type=text]').val(search);
+          $('#shutterstock-search-form input[type=text]').placeholder();
+          $('#shutterstock-search-form input[name="subId2"]').val(search);
+          $('#shutterstock-search-form input[name="subId3"]').val("");
+          $('.eezyapi ul.is--sponsored li').append('<div class="corner-ribbon--sponsored"></div>');
+          $('#shutterstockapi.eezyapi').addClass('has--ss-results'); // styles gray box
+        });
+
+      }
+      sstkFunction();
+    </script>
+
+    <script class="shutterstock result" type="text/template">
+      <li>
+        
+<a class="affiliate-shutterstock" title="{{description}}"
+                                  rel="nofollow"
+                                  target="_blank"
+                                  href="{{url}}"
+                                  data-term="technology-background"
+                                  data-page="1"
+                                  data-premium="false"
+                                  data-internal="false",
+                                  data-search-page-view-event-id="50706425",
+                                  data-search-id="49328c9e-dd9c-493f-bf77-980fec0cb01e",
+                                  data-domain="www.videezy.com">
+  <span><img src="{{image_url}}" alt="{{description}}"/></span>
+</a>
+
+      </li>
+    </script>
+
+    <script class="shutterstock container" type="text/template">
+      <div class="sponsored shutterstock ss-results-block">
+        <div class="header">
+          <div class="ss-logo-text__wrapper">Sponsored Videos by <span class="ss-logo-text"><span>Shutter</span>st<span>o</span>ck</span></div>
+          <a href="coupon"  onclick="SHUTTERBANNER();return false;" class="banner shutter-promo-banner">
+            Click to reveal a promo code to Save 10% off ALL subscriptions.
+          </a>
+        </div>
+        <ul class="api-results is--justified in-gray-box videezy-sponsored-grid"></ul>
+      </div>
+    </script>
+  <script>
+          var coupon_code = "VDZ10OFF";
+  </script>
+  <script>var term = $('#search-term').val();var SHUTTERBANNER = function() {  var href = 'http://shutterstock.7eer.net/c/38919/42119/1305?u=https%3A%2F%2Fwww.shutterstock.com%2Fvideo%2F%3Futm_medium%3DAffiliate%26utm_campaign%3DEezy%2520Inc%26utm_source%3D38919%26irgwc%3D1&sharedid=www.videezy.com&subId1=coupon&subId2='+encodeURI(term)+'&subId3='+getCookie('ga-client-id');      var win = window.open("", "shutterstock-sale", "width=520,height=320");       var wrap = win.document.createElement('div'); wrap.setAttribute('class', 'sale-wrapper');      var logo = win.document.createElement('img');logo.setAttribute('src', 'http://static.vecteezy.com/system/assets/asset_files/000/000/214/original/shutterstock-logo.jpg');wrap.appendChild(logo);      var code = win.document.createElement('div');code.setAttribute('class','code');code.appendChild(win.document.createTextNode(coupon_code));wrap.appendChild(code);      var expires = win.document.createElement('div');expires.setAttribute('class','expire');expires.appendChild(win.document.createTextNode('Hurry! Offer Expires January 31st, 2019'));wrap.appendChild(expires);      var close = win.document.createElement('a');close.setAttribute('href', '#');close.appendChild(win.document.createTextNode('Close Window'));wrap.appendChild(close);      var style = win.document.createElement('style');      close.setAttribute('onclick', 'window.close();return false;');      style.appendChild(win.document.createTextNode("a{margin-top: 40px;display:block;font-size:12px;color:rgb(73,149,203);text-decoration:none;} .expire{margin-top:16px;color: rgb(81,81,81);font-size:24px;} .code{margin-top:20px;font-size:50px;font-weight:700;text-transform:uppercase;} img{margin-top:44px;} body{padding:0;margin:0;text-align:center;font-family:sans-serif;} .sale-wrapper{height:288px;border:16px solid #a1a1a1;}"));      win.document.body.appendChild(style);      win.document.body.appendChild(wrap);window.location = href;}</script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('body').on('click', 'a.affiliate-shutterstock', function(e) {
+          $.post('|affiliate_clicks|search|technology-background'.replace(/\|/g,'/'), {page: 1, internal_search: 'false', referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', 'a.internal-resource', function(e) {
+          $.post('|clicks|search|technology-background'.replace(/\|/g,'/'), {page: 1, premium: false, referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', 'a.sponsored-premium-resource', function(e) {
+          $.post('|clicks|search|technology-background'.replace(/\|/g,'/'), {premium: true, referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', '.filter-options.popular a', function(e) {
+          $.post('|clicks|related_search|technology-background'.replace(/\|/g,'/'), {tag_term: $(this).text(), referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', '.c-tags a', function(e) {
+          $.post('|clicks|related_search_bottom|technology-background'.replace(/\|/g,'/'), {tag_term: $(this).text(), referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', '.pagination a', function(e) {
+          $.post('/clicks/pagination', {ppst: 'technology-background', pagination_text: $(this).text(), referrer: document.referrer});
+          return true;
+        });
+        $('#search-form').on('submit', function() {
+          $.post('|clicks|search_search_action'.replace(/\|/g,'/'), {term: $('#search-term').val(), referrer: document.referrer})
+          return true;
+        });
+        $('body').on('click', 'a.login-link', function(e) {
+          $.post('|clicks|login_link'.replace(/\|/g,'/'), {page_type: "search", term: $('#search-term').val(), referrer: document.referrer})
+          return true;
+        });
+        $('body').on('click', 'a.signup', function(e) {
+          $.post('|clicks|signup_link'.replace(/\|/g,'/'), {page_type: "search", term: $('#search-term').val(), referrer: document.referrer})
+          return true;
+        });
+      });
+    </script>
+        <script type="text/javascript">
+          $("nav.pager a").on('click', function() {
+            var term = $('#search-term').val();
+              var pu_url = "https://shutterstock.7eer.net/c/38919/111120/1305?subId1=pagination&subId2="+encodeURI(term)+"&subId3="+ $.cookies.get('ga-client-id') +"&u=http%3A%2F%2Ffootage.shutterstock.com%2Fsearch%2F"+term.replace(/ /gi,"%2B")+"&sharedid=www.videezy.com"
+            if (!$.cookies.get('popped')) {
+              $.cookies.set('popped', '1', {hoursToLive: .5});
+              underpop(pu_url);
+              track("sstk_popup", 'pagination', term);
+            }
+          });
+        </script>
+
+  <script defer="defer" src="https://static.videezy.com/assets/sticky-ad-99fc6b2ccc81ef9cee654a4a03a80dbb.js" type="text/javascript"></script>
+
+    <script>
+      ga('send', 'event', 'Search', searchScope, 'technology background', '2191', {
+      nonInteraction: true
+    });
+  </script>
+
+
+
+    <script type="text/javascript">
+      $.post("https://search-graph.eezyinc.com/searches", {domain: 'www.videezy.com', user_id: '554575cc-1160-445a-bbbd-870488f35525', scope: 'External', search_term: 'technology-background'}, function(data) {});
+    </script>
+  <script type="text/javascript">
+    mixpanel.track_links("#header-go-premium", "click_go_premium");
+  </script>
+  <script type="text/javascript">
+    mixpanel.track_links(".header-signup-link", "click_header_signup");
+  </script>
+
+  <script>
+    function connected_to_facebook() {
+      FB.login(function(response) {
+        if (response.authResponse) {
+         console.log('Welcome!  Fetching your information.... ');
+         FB.api('/me', function(response) {
+           console.log('Good to see you, ' + response.name + '.');
+         });
+          trackFacebookLogin();
+          var isDLReachedModal = false;
+          if($('.download-limit-reached').length) {
+            isDLReachedModal = true;
+          }
+          if (isDLReachedModal) {
+            /* We need to explicitly check for session[:last_viewed_resource_id] being
+            present even though it will never be accessed by the client in a situation where
+            it would be nil because Rails will throw an exception when trying to generate
+            this template otherwise. */
+          } else {
+            window.location.href = "/auth/facebook/callback?" + $.param({ signed_request: response.authResponse.signedRequest });
+          }
+        } else {
+         console.log('User cancelled login or did not fully authorize.');
+        }
+      }, {scope: 'email,public_profile'}); // todo: confirm scope
+    }
+
+    function initFacebookSignin() {
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '433618560134484', // App ID
+          channelUrl : '//www.videezy.com/channel.html', // Channel File
+          status     : true, // check login status
+          cookie     : true, // enable cookies to allow the server to access the session
+          version    : 'v2.7',
+          xfbml      : true  // parse XFBML
+        });
+
+        FB.Event.subscribe('edge.create', function(href, widget) {
+          pageTracker._trackEvent('facebook', 'like', href);
+        });
+        FB.Event.subscribe('auth.login', function(e) {
+          return false;
+        });
+      };
+
+      // Load the SDK Asynchronously
+      (function(d){
+         var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement('script'); js.id = id; js.async = true;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         ref.parentNode.insertBefore(js, ref);
+       }(document));
+    }
+
+      initFacebookSignin();
+  </script>
+
+
+
+        <script>
+      $('.next_page').text("Next page");
+    </script>
+
+    
+      
+    <script defer="defer" src="https://static.videezy.com/assets/animated_inputs_hacks-729dc697616e3ca215afee5392b42fca.js" type="text/javascript"></script>
+      <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '359443887835602');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=359443887835602&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+        <script>
+      if (searchScope === "Internal") {
+        fbq('track', 'Search');
+      }
+    </script>
+
+  </body>
+</html>

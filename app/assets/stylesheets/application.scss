@@ -21,8 +21,8 @@ body {
     font-family: Open Sans;
     font-size: 14px;
     line-height: 1.42857;
-    background: #333333;
     height: 350px;
+    background-image: url(index.jpeg);
     padding: 0;
     margin: 0;
 }
@@ -58,7 +58,7 @@ body {
 .container-login .nav-tabs.nav-justified > li > a,
 .container-login .nav-tabs.nav-justified > li > a:hover,
 .container-login .nav-tabs.nav-justified > li > a:focus {
-    background: #ea533f;
+    background: #778899;
     border: medium none;
     color: #ffffff;
     margin-bottom: 0;
@@ -82,11 +82,10 @@ body {
     padding: 10px 30px;
 }
 .container-login h2 {
-    color: #ea533f;
+    color: #778899;
 }
 .form-control {
     background-color: #ffffff;
-    background-image: none;
     border: 1px solid #999999;
     border-radius: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
@@ -103,9 +102,9 @@ body {
     margin-top: -15px;
 }
 .container-login button {
-    background-color: #ea533f;
-    border-color: #e73e28;
-    color: #ffffff;
+    background-color: #778899;
+    border-color: #778899;
+    color: #778899;
     border-radius: 0;
     font-size: 18px;
     line-height: 1.33;

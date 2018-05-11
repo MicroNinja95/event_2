@@ -1,21 +1,40 @@
-%h2 Sign up
-= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
-  = devise_error_messages!
-  .field
-    = f.label :email
-    %br/
-    = f.email_field :email, autofocus: true, autocomplete: "email"
-  .field
-    = f.label :password
-    - if @minimum_password_length
-      %em
-        (#{@minimum_password_length} characters minimum)
-    %br/
-    = f.password_field :password, autocomplete: "off"
-  .field
-    = f.label :password_confirmation
-    %br/
-    = f.password_field :password_confirmation, autocomplete: "off"
-  .actions
-    = f.submit "Sign up"
-= render "devise/shared/links"
+
+.login-body
+  %article.container-login.center-block
+    %section
+      %ul#top-bar.nav.nav-tabs.nav-justified
+        %li.active
+          = link_to "Sign up", new_registration_path(resource_name)
+        %li
+          = link_to "Log in", new_session_path(resource_name)
+      .tab-content.tabs-login.col-lg-12.col-md-12.col-sm-12.cols-xs-12
+        #login-access.tab-pane.fade.active.in
+          %h2
+            %i.glyphicon.glyphicon-log-in
+            Sign Up
+          %form.form-horizontal
+            = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+              = errors_for resource, false
+              .form-group
+                = f.label :email
+                %br/
+                = f.email_field :email, autofocus: true, autocomplete: "email"
+              .form-group
+                = f.label :password
+                - if @minimum_password_length
+                  %em
+                    (#{@minimum_password_length} characters minimum)
+                %br/
+                = f.password_field :password, autocomplete: "off"
+              .form-group
+                = f.label :password_confirmation
+                %br/
+                = f.password_field :password_confirmation, autocomplete: "off"
+              .row
+                .col-md-6= recaptcha_tags
+                .col-md-6
+              %br/
+              .form-group
+                = render "devise/shared/links"
+              .form-group
+                = f.submit "submit", class: 'btn btn-lg btn-block btn-primary'
